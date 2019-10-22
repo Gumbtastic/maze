@@ -24432,7 +24432,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.acts.Close,
 	cr.plugins_.WebStorage.prototype.cnds.LocalStorageExists,
 	cr.system_object.prototype.acts.LoadStateJSON,
-	cr.system_object.prototype.cnds.OnLoadComplete,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.system_object.prototype.cnds.OnLoadComplete,
 	cr.system_object.prototype.cnds.OnLoadFailed
 ];};
